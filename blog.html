@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>Blog (Uslovi i studiji)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Images/logokallos.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>   
+        <ul>
+            <li><a href="index.html">POČETNA</a></li>
+            <li><a href="about.html">O NAMA</a></li>
+            <li><a href="course.html">STUDIJI</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">KONTAKT</a></li>>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>Uslovi i studiji za 2023</h1>
+</section>
+    
+<!------ BLOG sadržaj ------>
+    
+     <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/backgroundkallos2.jpg">
+                <h2>Uslovi za upis na studijski program</h2>
+                <p>Studijski programi se organizuju kao redovni i vanredni. Pravo upisa imaju kandidati državljani Bosne i Hercegovine, strani državljani i lica bez državljanstva sa završenom srednjom školom u četverogodišnjem trajanju u Bosni i Hercegovini ili izvan Bosne i Hercegovine. Uslov za upis je postupak nostrifikacije, odnosno ekvivalencije kao dokaz o završenom odgovarajućem srednjem obrazovanju. Pravo upisa imaju i kandidati sa završenom srednjom stručnom školom, ukoliko su stekli dopunsko obrazovanje iz opšte obrazovnih predmeta u gimnaziji ili srodnoj školi. Pravo upisa na studijski program I ciklusa studija imaju sva lica koja su završila četvorogodišnju srednju školu. Zadatak dodiplomskog studija na Fakultetu zdravstvenih nauka je sticanje sveobuhvatnih stručnih kompetencija i znanja na kojima se temelji zdravstvena njega i usluge. Studij podrazumijeva odnos između zdravstvenog stanja čovjeka, njegovog fizičkog i društvenog okruženja, kao i strukturu, fizioloških funkcija, patofizioloških promjena i ponašanja zdravih i bolesnih osoba. Na Fakultetu zdravstvenih studija realizira se osam studijskih programa. Nastavni planovi i programi urađeni su u skladu sa zahtjevima Bolonjskog procesa studiranja i usklađeni sa Zakonom o visokom obrazovanju, shodno potrebama tržišta za zdravstvenim kadrovima.</p>
+                
+                <div class="comment-box">
+                    <h3>Ostavite komentar</h3>
+                    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Korisničko ime">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Vaš komentar"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POSALJI KOMENTAR</button>
+                    </form>
+                </div>
+                
+                
+                
+            </div>
+            <div class="blog-right">
+                <h3>Studiji</h3>
+                <div>
+                    <span>Ekonomski fakultet</span>
+                    <span>5 smjerova</span>
+                </div>
+                <div>
+                    <span>Pravni fakultet</span>
+                    <span>3 smijera</span>
+                </div>
+                <div>
+                    <span>Fakultet političkih nauka</span>
+                    <span>3 smijera</span>
+                </div>
+                <div>
+                    <span>Tehnički fakultet</span>
+                    <span>8 smijerova</span>
+                </div>
+                <div>
+                    <span>Pedagoški fakultet</span>
+                    <span>7 smijerova</span>
+                </div>
+                <div>
+                    <span>Medicinski fakultet</span>
+                    <span>1 smijer</span>
+                </div>
+                <div>
+                    <span>Fakultet zdravstvenih nauka</span>
+                    <span>8 smijerova</span>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+<!------ Footer (Podnožje) ------>
+    
+    <section class="footer">
+    <h4>O nama</h4>
+    <p>Evropski univerzitet „Kallos“ Tuzla osnovan je 2015. godine. Djelatnost kojom se Univerzitet bavi je od javnog interesa i odvija se u skladu sa propisima.<br>Na Univerzitetu se, u okviru sedam fakulteta, na sva tri nivoa studija izučavaju pravne, ekonomske, političke, pedagoške, tehničke, zdravstvene i medicinske nauke.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/EUKallosTuzla">
+        <i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/eukallostuzla/">
+        <i class="fa fa-instagram"></i></a>
+        </div>
+        <p>Made by Emin H. 009/20-INI</p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!------Java Script za pokazivanje i sakrivanje menija------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";  
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";  
+    }
+    
+</script>  
+    
+</body>
+</html>
